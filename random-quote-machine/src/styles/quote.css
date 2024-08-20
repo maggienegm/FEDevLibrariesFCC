@@ -1,0 +1,24 @@
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.quote-text {
+  font-size: 1.5em;
+}
+
+.quote-author {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .quote-text {
+    font-size: 1rem;
+  }
+
+  .quote-author {
+    font-size: 0.1rem;
+  }
+}
